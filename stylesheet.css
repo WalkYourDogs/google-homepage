@@ -1,16 +1,35 @@
 #searchbar {
         width:484px;
-        height:46px;
-        border:1px;
+        height:44px;
+        border-style:solid;
+        border-width:1px;
         border-color:#dfe1e5;
         border-radius:24px;
-        padding-top: 24px;
-        padding-bottom: 18px;
+        margin-top: 21px;
+        margin-bottom: 28px;
     }
+#searchbar:hover{
+    box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
+}
 .center 
     {
        align-items:center;
         }
 #field  {
+    float:left;
+    margin-top:10px;
+    margin-left:12px;
+    font-size:15px;
+    
+}
+#magnifying_glass {
+    float:left;
+    margin-top:7px;
+    margin-left:10px;
+    
+}
 
+input{
+    border: none;
+    background: transparent;
 }
