@@ -1,0 +1,16 @@
+#searchbar {
+        width:484px;
+        height:46px;
+        border:1px;
+        border-color:#dfe1e5;
+        border-radius:24px;
+        padding-top: 24px;
+        padding-bottom: 18px;
+    }
+.center 
+    {
+       align-items:center;
+        }
+#field  {
+
+}
