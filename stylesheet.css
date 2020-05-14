@@ -45,4 +45,9 @@ ul  {
     padding-left:17px;}
 li  {
     display:inline;}
-footer {nav-down: auto;
+footer {    
+    position:relative;}
+#footerleft {
+    position:absolute;}
+#footerright    {
+    float:right;}
