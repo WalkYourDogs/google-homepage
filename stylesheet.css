@@ -1,16 +1,41 @@
+#logo   {
+    margin-top:147px;
+}
 #searchbar  {
-        width:484px;
-        height:44px;
-        border-style:solid;
-        border-width:1px;
-        border-color:#dfe1e5;
-        border-radius:24px;
-        margin-top: 20px;
-        margin-bottom: 28px;}
-#buttons    {
-    margin-bottom:20px;}
+    width:482px;
+    height:44px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#dfe1e5;
+    border-radius:24px;
+    margin-top: 23px;
+    margin-bottom: 29px;}
+#buttoncontainer {
+    padding:0px 10px 0px 10px;}
+#buttons {
+    margin-bottom:21px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    cursor: pointer;
+    opacity:.75;
+    border:1px;
+    background:#f1f1f1; 
+    border-color:#f1f1f1;
+    border-radius:.3em; 
+    padding:10px 18px 10px 18px;}
+    ::-moz-focus-inner{border:0;}
+#buttons:hover {
+    border:1px solid #5F6368;
+    opacity:1;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color:#f5f5f5;
+    border-radius:4px; 
+    padding:8px 16px 8px 16px;
+    margin:1px;}
 #searchbar:hover    {
     box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);}
+#buttons:focus    {
+    border-color:#4D90FE;}
 #field  {
     float:left;
     margin-top:10px;
@@ -18,15 +43,15 @@
     font-size:15px;}
 #magnifying_glass   {
     float:left;
-    margin-top:7px;
-    margin-left:10px;}
+    margin-top:6px;
+    margin-left:11px;}
 input   {
     border:none;
     background:transparent;}
 #videomeetings {
     font-size:small; 
     font-family:arial,sans-serif;
-    margin:25px;}
+    margin-top:25px;}
 .center {
     align-items:center;}
 a:any-link  {
@@ -46,8 +71,18 @@ ul  {
 li  {
     display:inline;}
 footer {    
-    position:relative;}
+    position:fixed;
+    border-top:1px solid #e4e4e4;
+    opacity:.75;
+    left:0;
+    bottom:0;
+    width:100%;
+    padding-bottom:32px;
+    height:12px;
+    background-color:rgb(242,242,242);}
 #footerleft {
-    position:absolute;}
+    font-size:14px;
+    }
 #footerright    {
-    float:right;}
+    float:right;
+    font-size:14px;}
