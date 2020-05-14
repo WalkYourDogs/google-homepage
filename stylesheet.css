@@ -30,8 +30,19 @@ input   {
 .center {
     align-items:center;}
 a:any-link  {
-    color:#1a0dab;
+    color:black;
     text-decoration:none;}
 a:hover {
-    color:#1a0dab;
+    color:black;
     text-decoration:underline;}
+ul  {
+    display:inline-block;
+    opacity:.75;
+    font-size:small;
+    font-family:arial,sans-serif;
+    list-style-type:none;
+    padding-top:2px;
+    padding-left:17px;}
+li  {
+    display:inline;}
+footer {nav-down: auto;
