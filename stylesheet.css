@@ -1,35 +1,37 @@
-#searchbar {
+#searchbar  {
         width:484px;
         height:44px;
         border-style:solid;
         border-width:1px;
         border-color:#dfe1e5;
         border-radius:24px;
-        margin-top: 21px;
-        margin-bottom: 28px;
-    }
-#searchbar:hover{
-    box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);
-}
-.center 
-    {
-       align-items:center;
-        }
+        margin-top: 20px;
+        margin-bottom: 28px;}
+#buttons    {
+    margin-bottom:20px;}
+#searchbar:hover    {
+    box-shadow:0 1px 6px 0 rgba(32,33,36,0.28);}
 #field  {
     float:left;
     margin-top:10px;
     margin-left:12px;
-    font-size:15px;
-    
-}
-#magnifying_glass {
+    font-size:15px;}
+#magnifying_glass   {
     float:left;
     margin-top:7px;
-    margin-left:10px;
-    
-}
-
-input{
-    border: none;
-    background: transparent;
-}
+    margin-left:10px;}
+input   {
+    border:none;
+    background:transparent;}
+#videomeetings {
+    font-size:small; 
+    font-family:arial,sans-serif;
+    margin:25px;}
+.center {
+    align-items:center;}
+a:any-link  {
+    color:#1a0dab;
+    text-decoration:none;}
+a:hover {
+    color:#1a0dab;
+    text-decoration:underline;}
